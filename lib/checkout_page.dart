@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:simple_shopping_app/order_successful.dart';
 
 import 'product_model.dart';
 
@@ -55,7 +56,13 @@ class _CheckOutState extends State<CheckOut> {
         },
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () {},
+        onPressed: () {
+          Navigator.of(context).push(
+            MaterialPageRoute(
+              builder: (context) => const OrderSuccess(),
+            ),
+          );
+        },
         child: const Text('Order'),
       ),
     );
