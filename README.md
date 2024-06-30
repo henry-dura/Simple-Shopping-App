@@ -7,7 +7,7 @@
 - [📖 About the Project](#about-project)
     - [🛠 Built With](#built-with)
         - [Key Features](#key-features)
-    - [🚀 screen shots](#screen-shots)
+    - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
     - [Setup](#setup)
     - [Prerequisites](#prerequisites)
@@ -42,9 +42,11 @@ This project was built using Flutter framework and dart programming language.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- Screen Shots -->
+<!-- Live Demo -->
 
-## 🚀 Screen Shots <a name="screen-shots"></a>
+## 🚀 Screen Shots <a name="live-demo"></a>
+
+[View Project](https://appetize.io/app/p5l6vzrd2yt73ptvvkkp4vcqs4)
 
 
 ### Products Page, Checkout Page, Order Successful Page
