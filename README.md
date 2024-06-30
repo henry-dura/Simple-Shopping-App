@@ -54,16 +54,6 @@ This project was built using Flutter framework and dart programming language.
   <img src="screenshots/order_success.png" alt="Order Successful Page" width="30%">
 </p>
 
-### Products Page
-![Products Page](screenshots/product_list.png)
-
-### Checkout Page
-![Checkout Page](screenshots/checkout.png)
-
-### Order Successful
-![Order Successful Page](screenshots/order_success.png)
-
-
 
 
 <div style="text-align: center;">
@@ -93,10 +83,10 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-git clone https://github.com/henry-dura/BMI-Calculator.git
+git clone https://github.com/henry-dura/Simple-Shopping-App
 ```
 ```sh
-cd BMI-Calculator
+cd Simple-Shopping-App
 ```
 
 
@@ -134,7 +124,7 @@ flutter run
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/henry-dura/BMI-Calculator/issues).
+Feel free to check the [issues page](https://github.com/henry-dura/Simple-Shopping-App/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
