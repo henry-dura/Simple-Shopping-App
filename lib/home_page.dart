@@ -17,15 +17,9 @@ class _HomePageState extends State<HomePage> {
       bottomNavigationBar: NavigationBarTheme(
         data: NavigationBarThemeData(
             labelTextStyle: MaterialStateProperty.all(const TextStyle(color: Colors.black,fontSize: 18))
-          // MaterialStateProperty.resolveWith<TextStyle>(
-          //       (Set<MaterialState> states) => states.contains(MaterialState.selected)
-          //       ? const TextStyle(color: Colors.white,fontSize: 18)
-          //       : const TextStyle(color: Colors.black),
-          // ),
+
         ),
         child: NavigationBar(
-          labelBehavior: NavigationDestinationLabelBehavior.onlyShowSelected,
-
           onDestinationSelected: (int index) {
             setState(() {
               currentPageIndex = index;
@@ -37,13 +31,11 @@ class _HomePageState extends State<HomePage> {
             NavigationDestination(
               selectedIcon: Icon(Icons.list,size: 40,),
               icon: Icon(Icons.list,size: 40,),
-              label: 'Home',
-              tooltip: 'home',
+              label: 'Products',
             ),
             NavigationDestination(
-              icon: Icon(Icons.shopping_cart,size: 40,),
-              label: 'Business',
-              tooltip: 'Business',
+              icon: Icon(Icons.shopping_cart,size: 30,),
+              label: 'Checkout',
             ),
 
           ],
@@ -51,7 +43,7 @@ class _HomePageState extends State<HomePage> {
       ),
       body: <Widget>[
         ProductPage(),
-        CheckOut(),
+        const CheckOut(),
       ][currentPageIndex],
     );
   }

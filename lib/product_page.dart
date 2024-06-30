@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:simple_shopping_app/checkout_page.dart';
 import 'package:simple_shopping_app/product_model.dart';
 
 class ProductPage extends StatelessWidget {
@@ -65,7 +66,9 @@ class ProductPage extends StatelessWidget {
                             style: ElevatedButton.styleFrom(
                               backgroundColor: Colors.green,
                             ),
-                            onPressed: () {},
+                            onPressed: () {
+                              CheckOut.cartedProducts.add(product);
+                            },
                             child: const Text('Checkout',style: TextStyle(color: Colors.black),),
                           )
                         ],

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:simple_shopping_app/home_page.dart';
 
-import 'product_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +20,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         scaffoldBackgroundColor: Colors.white30,
       ),
-      home: HomePage(),
+      home: const HomePage(),
     );
   }
 }
