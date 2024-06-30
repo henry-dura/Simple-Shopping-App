@@ -138,7 +138,7 @@ If you like this project and want to show your support, please give it a ⭐️!
 
 ## Acknowledgments
 
-I thank HNG for the wonderful Opportunity[HNG Internship](https://hng.tech/internship).
+I thank HNG for the wonderful Opportunity [HNG Internship](https://hng.tech/internship).
 
 
 
