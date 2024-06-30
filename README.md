@@ -44,7 +44,7 @@ This project was built using Flutter framework and dart programming language.
 
 <!-- Live Demo -->
 
-## 🚀 Screen Shots <a name="live-demo"></a>
+## 🚀 Live Demo <a name="live-demo"></a>
 
 [View Project](https://appetize.io/app/p5l6vzrd2yt73ptvvkkp4vcqs4)
 
