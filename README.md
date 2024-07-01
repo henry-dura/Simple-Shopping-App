@@ -49,11 +49,13 @@ This project was built using Flutter framework and dart programming language.
 [View Project](https://appetize.io/app/p5l6vzrd2yt73ptvvkkp4vcqs4)
 
 
-### Products Page, Checkout Page, Order Successful Page
+### Products Page, Empty Checkout Page,CheckOut with Products, Order Successful Page
 <p align="center">
-  <img src="screenshots/product_list.png" alt="Products Page" width="30%">
-  <img src="screenshots/checkout.png" alt="Checkout Page" width="30%">
-  <img src="screenshots/order_success.png" alt="Order Successful Page" width="30%">
+  <img src="screenshots/product_list.png" alt="Products Page" width="25%">
+<img src="screenshots/checkout_empty.png" alt="Empty Checkout Page" width="25%">
+  <img src="screenshots/checkout.png" alt="Checkout Page" width="25%">
+  <img src="screenshots/order_success.png" alt="Order Successful Page" width="25%">
+
 </p>
 
 
