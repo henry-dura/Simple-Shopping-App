@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:simple_shopping_app/checkout_page.dart';
 import 'package:simple_shopping_app/product_model.dart';
+import 'data_table.dart';
 
 class ProductPage extends StatelessWidget {
   ProductPage({super.key});
@@ -60,16 +60,18 @@ class ProductPage extends StatelessWidget {
                           Text(
                             '\u20A6${product.price}',
                             style: const TextStyle(
-                                fontSize: 16, fontWeight: FontWeight.bold),
+                                fontSize: 20, fontWeight: FontWeight.bold),
                           ),
                           ElevatedButton(
                             style: ElevatedButton.styleFrom(
                               backgroundColor: Colors.green,
+                              shape: const CircleBorder(),
                             ),
+
                             onPressed: () {
-                              CheckOut.cartedProducts.add(product);
+                              CheckOutPage.checkedOutProducts.add(product);
                             },
-                            child: const Text('Checkout',style: TextStyle(color: Colors.black),),
+                            child: const Icon(Icons.add)
                           )
                         ],
                       )
@@ -82,3 +84,6 @@ class ProductPage extends StatelessWidget {
     );
   }
 }
+
+
+

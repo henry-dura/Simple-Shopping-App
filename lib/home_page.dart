@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:simple_shopping_app/checkout_page.dart';
+import 'package:simple_shopping_app/data_table.dart';
 import 'package:simple_shopping_app/product_page.dart';
 
 class HomePage extends StatefulWidget {
@@ -43,7 +43,7 @@ class _HomePageState extends State<HomePage> {
       ),
       body: <Widget>[
         ProductPage(),
-        const CheckOut(),
+        const CheckOutPage(),
       ][currentPageIndex],
     );
   }
