@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:simple_shopping_app/data_table.dart';
-import 'package:simple_shopping_app/product_page.dart';
+import 'package:simple_shopping_app/presentation/data_table.dart';
+import 'package:simple_shopping_app/presentation/product_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -25,7 +25,7 @@ class _HomePageState extends State<HomePage> {
               currentPageIndex = index;
             });
           },
-          indicatorColor: Colors.pinkAccent,
+          indicatorColor: Colors.pinkAccent.shade100,
           selectedIndex: currentPageIndex,
           destinations: const <Widget>[
             NavigationDestination(

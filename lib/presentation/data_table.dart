@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:simple_shopping_app/order_successful.dart';
+import 'package:simple_shopping_app/presentation/order_successful.dart';
 import 'package:simple_shopping_app/product_model.dart';
 
 
@@ -12,11 +12,16 @@ class CheckOutPage extends StatefulWidget {
   const CheckOutPage({super.key});
 
 
+
+
   @override
   _CheckOutPageState createState() => _CheckOutPageState();
 }
 
 class _CheckOutPageState extends State<CheckOutPage> {
+
+
+
 
 
   double getTotalPrice() {
