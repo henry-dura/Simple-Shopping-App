@@ -46,8 +46,10 @@ This project was built using Flutter framework and dart programming language.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Virtualized Demonstration of App](https://appetize.io/app/p5l6vzrd2yt73ptvvkkp4vcqs4)
+[Virtualized Demonstration of App](https://appetize.io/app/b_2bnll3gthzjzjer3jq7olksodi)
 
+## Download Shopping App
+[Download](https://appetize.io/app/b_2bnll3gthzjzjer3jq7olksodi)
 
 ### Products Page, Empty Checkout Page,CheckOut with Products, Order Successful Page
 <p align="center">
