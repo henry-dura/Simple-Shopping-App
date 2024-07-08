@@ -1,7 +1,6 @@
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
 
-import '../data/product_model.dart';
 import '../data/product_repository.dart';
 
 part 'products_event.dart';

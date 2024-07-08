@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:simple_shopping_app/presentation/data_table.dart';
 import 'package:simple_shopping_app/presentation/product_page.dart';
 
-class HomePage extends StatefulWidget {
-  const HomePage({super.key});
+import 'checkout_page.dart';
+
+class BottomNavPage extends StatefulWidget {
+  const BottomNavPage({super.key});
 
   @override
-  State<HomePage> createState() => _HomePageState();
+  State<BottomNavPage> createState() => _BottomNavPageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _BottomNavPageState extends State<BottomNavPage> {
   int currentPageIndex = 0;
   @override
   Widget build(BuildContext context) {
@@ -42,7 +43,7 @@ class _HomePageState extends State<HomePage> {
         ),
       ),
       body: <Widget>[
-        ProductPage(),
+        const ProductPage(),
         const CheckOutPage(),
       ][currentPageIndex],
     );
