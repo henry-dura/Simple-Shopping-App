@@ -46,12 +46,12 @@ This project was built using Flutter framework and dart programming language.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[View Project](https://appetize.io/app/p5l6vzrd2yt73ptvvkkp4vcqs4)
+[Virtualized Demonstration of App](https://appetize.io/app/p5l6vzrd2yt73ptvvkkp4vcqs4)
 
 
 ### Products Page, Empty Checkout Page,CheckOut with Products, Order Successful Page
 <p align="center">
-  <img src="screenshots/product_list.png" alt="Products Page" width="24%">
+  <img src="screenshots/products_list.png" alt="Products Page" width="24%">
 <img src="screenshots/checkout_empty.png" alt="Empty Checkout Page" width="24%">
   <img src="screenshots/checkout.png" alt="Checkout Page" width="24%">
   <img src="screenshots/order_success.png" alt="Order Successful Page" width="24%">
@@ -60,9 +60,7 @@ This project was built using Flutter framework and dart programming language.
 
 
 
-<div style="text-align: center;">
-  <img src="demoVideo/demoScreen.gif" alt="Demo video" width="700" height="1000">
-</div>
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
